@@ -1,0 +1,12 @@
+-- 07 | Why didn't "played but never won" players win?
+-- Question: Did they try hard and fail (difficulty) or quit early (low interest)?
+-- Cohort: New users who started but never completed a level on day 0 (n = 675)
+-- Result:
+--   * 1 attempt:     35.7% | avg fails 0.1 | D1 9.1%
+--   * 2-3 attempts:  31.9% | avg fails 0.6 | D1 9.8%
+--   * 4-9 attempts:  22.4% | avg fails 1.4 | D1 15.2%
+--   * 10+ attempts:  10.1% | avg fails 3.0 | D1 14.7%
+-- Finding: 68% tried at most 3 times and rarely even failed -> they abandoned
+--          levels mid-way. The main issue is first impression, not difficulty.
+--          Persistent players return more often even when they fail.
+-- Implication: Fix the first-time user experience (FTUE) before tuning difficulty.
