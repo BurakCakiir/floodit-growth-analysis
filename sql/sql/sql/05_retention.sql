@@ -1,0 +1,9 @@
+-- 05 | Retention: D1, D7, D30
+-- Cohort: New users with first_open between 2018-07-02 and 2018-09-03 (n = 2,538)
+--         (starts after the data anomaly; ends 30 days before data end so D30 is measurable)
+-- Active = user had a user_engagement event on that exact day
+-- Result: D1 20.9% | D7 5.9% | D30 1.8%
+-- Benchmark: Around the all-games median (~22% / ~4% / ~0.7%, GameAnalytics),
+--            but well below puzzle genre averages (~32% / ~12% / ~5%).
+-- Insight: Biggest loss is on day 1 -> 79 of 100 new players never return.
+--          Focus of next step: the first-day experience.
