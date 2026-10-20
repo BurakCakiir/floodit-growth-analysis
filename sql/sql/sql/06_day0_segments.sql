@@ -1,0 +1,13 @@
+-- 06 | Day-0 behavior vs D1 retention
+-- Question: Does what new players do on their first day predict whether they come back?
+-- Cohort: New users, first_open between 2018-07-02 and 2018-09-03 (n = 2,538)
+-- Result:
+--   * Did not play:          14.1% of new players, D1 12.3%
+--   * Played but never won:  26.6% of new players, D1 11.3%
+--   * Played and won:        59.3% of new players, D1 27.2%
+-- Finding: Players who win a level on day 0 return 2.4x more often.
+--          Even winners stay below the puzzle genre average (~32%).
+-- Opportunity: "Played but never won" (675 players) is the biggest lever.
+--          Upper-bound scenario: if they matched winners' D1, overall D1 would
+--          go from 20.9% to ~25%. (Illustrative only, not a measured result.)
+-- Caution: Correlation, not causation -> needs an A/B test to confirm.
